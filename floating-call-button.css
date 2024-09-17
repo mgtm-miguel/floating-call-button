@@ -1,0 +1,32 @@
+.floating-call-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #042033;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+
+.floating-call-button svg {
+    margin-right: 10px;
+}
+
+.floating-call-button span {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .floating-call-button {
+        padding: 10px 15px;
+    }
+    .floating-call-button span {
+        font-size: 14px;
+    }
+}
